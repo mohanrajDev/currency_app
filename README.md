@@ -1,19 +1,19 @@
 ## Installation Documentation
 
 - Step 1
-  > `git clone https://github.com/mohanrajDev/currency_app.git`
+   ```git clone https://github.com/mohanrajDev/currency_app.git```
 
 - Step 2
-  > `cd currency_app`
+  ```cd currency_app```
 
 - Step 3
 
-  > `composer install `
+  ```composer install```
 
-  > `npm run dev`
+  ```npm run dev```
 
 - Step 4
-  > `cp .env.example .env` 
+  ```cp .env.example .env``` 
 
 - Step 5
   -config database deatils
@@ -37,18 +37,18 @@
     MAIL_FROM_NAME="${APP_NAME}"```
 
 - Step 6
-   > `php artisan migrate --seed`
+   ```php artisan migrate --seed```
 
 - Step 7
-    > `php artisan storage:link`
+    ```php artisan storage:link```
 
 - Step 8
-      > `sudo chmod -R 777 storage bootstrap/cache`
+    ```sudo chmod -R 777 storage bootstrap/cache```
 
 - Step 9
-     > `php artisan serve`
+    ```php artisan serve```
 
 - Step 10
-  > `Vist http://localhost:8000/`
+  ```Vist http://localhost:8000/```
   
 
