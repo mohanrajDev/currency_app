@@ -8,9 +8,9 @@
 
 - Step 3
 
-  -`composer install `
+  > `composer install `
 
-  -`npm run dev`
+  > `npm run dev`
 
 - Step 4
   `cp .env.example .env` 
@@ -20,7 +20,7 @@
 
   -config mail details
 
-  ` MAIL_MAILER=smtp
+  ` > MAIL_MAILER=smtp
 
     MAIL_HOST=smtp.mailtrap.io
 
